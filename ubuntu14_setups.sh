@@ -20,6 +20,15 @@ sudo apt-get install php5-gd
 
 
 # restart apache2
+sudo a2enmod rewrite
 sudo service apache2 restart
 
+#/var/log/apache2/error.log
+#/etc/init.d/apache2 restart
+
+# python env
+sudo apt-get install python-pip python-dev build-essential
+sudo pip install virtualenv virtualenvwrapper
+sudo pip install --upgrade pip
+sudo apt-get install libjpeg-dev
 
