@@ -34,3 +34,9 @@ sudo apt-get install -y libjpeg-dev
 
 # mongodb
 sudo apt-get install -y mongodb
+
+
+# install nodejs
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install nodejs
+sudo apt-get install build-essential
