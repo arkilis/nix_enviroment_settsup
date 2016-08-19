@@ -4,7 +4,10 @@ import os
 
 
 print "installing vimrc"
-cmd =   "cp ./vimrc ~/.vimrc"
+print "install vim plugins"
+cmd = "mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim"
+os.system(cmd)
+cmd =  "cp ./vimrc ~/.vimrc"
 os.system(cmd)
 
 print "installing gitconfig"

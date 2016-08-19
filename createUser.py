@@ -7,3 +7,5 @@ if(__name__=="__main__"):
     cmd+="sudo usermod -aG sudo username"
     cmd+="sudo /etc/ssh/sshd_config"
     # AllowUsers username  
+    # don't forget to restart ssh server
+    # sudo service ssh restart
