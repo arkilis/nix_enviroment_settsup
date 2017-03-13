@@ -31,6 +31,7 @@ sudo apt-get install -y python-pip python-dev build-essential
 sudo pip install -y virtualenv virtualenvwrapper
 sudo pip install --upgrade pip
 sudo apt-get install -y libjpeg-dev
+sudo apt-get install python-cffi
 
 # mongodb
 sudo apt-get install -y mongodb
@@ -40,3 +41,4 @@ sudo apt-get install -y mongodb
 curl -sL https://deb.nodesource.com/setup | sudo bash -
 sudo apt-get install nodejs
 sudo apt-get install build-essential
+
