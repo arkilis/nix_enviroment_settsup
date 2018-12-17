@@ -29,7 +29,6 @@ autocmd BufNewFile  *.spec  call SKEL_spec()
 " ~/.vimrc ends here
 
 " My config
-set tabstop=4
 set number
 set expandtab
 
